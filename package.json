@@ -1,0 +1,27 @@
+{
+  "name": "festival-musica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "\"Marcos Bruno\"",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.79.4",
+    "sharp": "^0.33.5"
+  }
+}
